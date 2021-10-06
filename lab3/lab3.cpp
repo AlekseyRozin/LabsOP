@@ -15,13 +15,12 @@ int main()
     cout << "Введите точность, 10 в степени: ";
     cin >> power;
     float accuracy = pow(10, power); //инициализируем значение точности
-    float xn = 0; // n член
+    float xn = 1; // n член
     float xn1 = 1; // n+1 член
-    float temp = 1; // временная переменная, в которой будт сохраняться xn1
-    while (fabs(xn1 - xn) > accuracy) {
-        xn = temp;
-        xn1 = xn / pow(p, 2) * ((pow(p, 2) - 1) + 0, 5 * (p + 1) * (a / pow(xn, p)) - 0, 5 * (p - 1) * (pow(xn, p) / p));
-        temp = xn1;
-    };
+    do {
+        xn = xn1;
+       // xn1 = xn / pow(p, 2) * ((pow(p, 2) - 1) + 0, 5 * (p + 1) * (a / pow(xn,p)) - 0, 5 * (p + 1) * (pow(xn,p) / p)); - неправильная формула, данная по условию
+       xn1 = 1 / p * ((p - 1) * xn + a / pow(xn, p - 1)); // правильная формула вычисления 
+    } while (fabs(xn1 - xn) > accuracy);
     cout << xn1;
 }
