@@ -18,7 +18,7 @@ int main()
     float xn = 1; // n член
     float xn1 = 1; // n+1 член
     do {
-        xn = xn1;
+    xn = xn1;
        // xn1 = xn / pow(p, 2) * ((pow(p, 2) - 1) + 0, 5 * (p + 1) * (a / pow(xn,p)) - 0, 5 * (p + 1) * (pow(xn,p) / p)); - неправильная формула, данная по условию
        xn1 = 1 / p * ((p - 1) * xn + a / pow(xn, p - 1)); // правильная формула вычисления 
     } while (fabs(xn1 - xn) > accuracy);
