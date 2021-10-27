@@ -12,10 +12,5 @@ int main()
         numerator *= (x - pow(2, i)); // вычисление значения числителя
         denominator *= (x - (pow(2, i) - 1)); // вычисление значения знаменателя
     };
-    if (denominator == 0) { // проверка равен ли знаменатель нулю
-        cout << "Ошибка - деление на ноль!";
-    }
-    else {
-        cout << numerator / denominator;
-    }
+    denominator == 0 ? cout << "Ошибка - деление на ноль!" : cout << numerator / denominator;
 }
