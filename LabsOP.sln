@@ -21,6 +21,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab5", "lab5\lab5.vcxproj",
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lab5Py", "lab5Py\lab5Py.pyproj", "{4B14CBE7-E0C3-414C-80B4-062172C0FB2F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab6", "lab6\lab6.vcxproj", "{2B0193B0-2E48-4995-993E-D1D51AE80B81}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lab6Py", "lab6Py\lab6Py.pyproj", "{6C3ACA69-DA72-4993-86A4-282835398829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,22 @@ Global
 		{4B14CBE7-E0C3-414C-80B4-062172C0FB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B14CBE7-E0C3-414C-80B4-062172C0FB2F}.Release|x64.ActiveCfg = Release|Any CPU
 		{4B14CBE7-E0C3-414C-80B4-062172C0FB2F}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Debug|x64.ActiveCfg = Debug|x64
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Debug|x64.Build.0 = Debug|x64
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Debug|x86.ActiveCfg = Debug|Win32
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Debug|x86.Build.0 = Debug|Win32
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Release|x64.ActiveCfg = Release|x64
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Release|x64.Build.0 = Release|x64
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Release|x86.ActiveCfg = Release|Win32
+		{2B0193B0-2E48-4995-993E-D1D51AE80B81}.Release|x86.Build.0 = Release|Win32
+		{6C3ACA69-DA72-4993-86A4-282835398829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3ACA69-DA72-4993-86A4-282835398829}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6C3ACA69-DA72-4993-86A4-282835398829}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6C3ACA69-DA72-4993-86A4-282835398829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3ACA69-DA72-4993-86A4-282835398829}.Release|x64.ActiveCfg = Release|Any CPU
+		{6C3ACA69-DA72-4993-86A4-282835398829}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
